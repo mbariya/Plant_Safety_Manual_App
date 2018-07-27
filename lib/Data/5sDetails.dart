@@ -12,24 +12,174 @@ class _FiveSPageState extends State<FiveSPage> {
       appBar: new AppBar(
         title: new Text("5S Details"),
       ),
-      body: new ListView(
+      body: Column(
         children: <Widget>[
-          new Card(
-            margin: EdgeInsets.all(20.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  children: <Widget>[
-                    new Text("1S"),
-                    new Padding(padding: EdgeInsets.only(right: 10.0)),
-                    new Text("SEIRI"),
+          new Container(
+            padding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0.0),
+            child: new Table(
+              defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+              border: new TableBorder(
+                right: BorderSide(width: 2.0),
+                left: BorderSide(width: 2.0),
+                top: BorderSide(width: 2.0),
+                horizontalInside: BorderSide(width: 1.0),
+                verticalInside: BorderSide(width: 1.0),
+              ),
+              children: [
+                new TableRow(
+                  decoration: new BoxDecoration(color: Colors.yellowAccent[100],),
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("Elements of 5S",style: new TextStyle(fontSize: 25.0, color: Colors.red,fontWeight: FontWeight.bold), ),
+                      ),
+                    ),
                   ],
                 ),
-                new Text("Meaning: Sorting i.e. organizing-Reorganizing"),
               ],
             ),
+          ),
+          new Container(
+            padding: EdgeInsets.fromLTRB(20.0, 0.0, 20.0, 10.0),
+            child: new Table(
+              defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+              columnWidths:  const <int, TableColumnWidth> {
+                0: FixedColumnWidth(50.0),
+                1: FixedColumnWidth(110.0),
+                //2: FixedColumnWidth(125.0),
+              },
+              border: new TableBorder(
+                right: BorderSide(width: 2.0),
+                left: BorderSide(width: 2.0),
+                bottom: BorderSide(width: 2.0),
+                top: BorderSide(width: 2.0),
+                horizontalInside: BorderSide(width: 1.0),
+                verticalInside: BorderSide(width: 1.0),
+              ),
+              children: [
+                new TableRow(
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("1S", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("SEIRI", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child:
+                            new Text("Sorting i.e. organizing - Reorganizing", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                  ],
+                ),
 
+                new TableRow(
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("2S", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("SEITON", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child:
+                        new Text("Set in Order - Systematic Arrangement", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                  ],
+                ),
+
+                new TableRow(
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("3S", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("SEISO", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("Spick and Span - Neat and Clean", style: new TextStyle(fontSize: 20.0,),),
+                      ),
+                    ),
+                  ],
+                ),
+
+                new TableRow(
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("4S", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("SEIKETSU", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child:
+                        new Text("Standardization", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                  ],
+                ),
+
+                new TableRow(
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("5S", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("SHITSUKE", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child:
+                        new Text("Self Discipline", style: new TextStyle(fontSize: 20.0,)),
+                      ),
+                    ),
+                  ],
+                ),
+
+
+              ],
+            ),
           ),
         ],
       ),

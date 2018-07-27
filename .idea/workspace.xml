@@ -9,7 +9,6 @@
     <list default="true" id="9556ad9b-3a32-47c8-9254-8853d6fb8c41" name="Default" comment="TLV">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/Data/5sDetails.dart" afterPath="$PROJECT_DIR$/lib/Data/5sDetails.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Data/TLV.dart" afterPath="$PROJECT_DIR$/lib/Data/TLV.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -54,21 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5sDetails.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="5sDetails.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Data/5sDetails.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
+            <state relative-caret-position="386">
               <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TLV.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TLV.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Data/TLV.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+            <state relative-caret-position="63">
+              <caret line="91" column="88" lean-forward="true" selection-start-line="91" selection-start-column="88" selection-end-line="91" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -299,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532694438550</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TLV values updated">
+      <created>1532696362839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532696362839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +321,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150384" sideWeight="0.5026217" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12843029" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26893523" sideWeight="0.4973783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26893523" sideWeight="0.4973783" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -344,7 +350,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TLV" />
-    <option name="LAST_COMMIT_MESSAGE" value="TLV" />
+    <MESSAGE value="TLV values updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="TLV values updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -459,18 +466,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Data/5sDetails.dart">
+    <entry file="file://$PROJECT_DIR$/lib/Data/TLV.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="91" column="88" lean-forward="true" selection-start-line="91" selection-start-column="88" selection-end-line="91" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Data/TLV.dart">
+    <entry file="file://$PROJECT_DIR$/lib/Data/5sDetails.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+        <state relative-caret-position="386">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding />
         </state>
       </provider>
