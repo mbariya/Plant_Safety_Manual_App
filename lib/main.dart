@@ -4,6 +4,7 @@ import 'settings.dart';
 import 'package:dynamic_theme/dynamic_theme.dart';
 import 'Data/TLV.dart';
 import 'Data/5sDetails.dart';
+import 'Data/flammabilityClassifications.dart';
 
 void main() => runApp(new MyApp());
 
@@ -22,8 +23,11 @@ class MyApp extends StatelessWidget {
         home: MyHomePage(),
         routes: <String, WidgetBuilder>{
           "/SettingPage":(BuildContext context) => new SettingsPage(),
-          "/TLVPage": (BuildContext context) => new TLV(),
           "/5SPage": (BuildContext context) => new FiveSPage(),
+          "/FCPage": (BuildContext context) => new FlammabilityClassifications(),
+          "/TLVPage": (BuildContext context) => new TLV(),
+
+
         },
       ),
     );
