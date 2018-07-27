@@ -22,6 +22,20 @@ class TLVState extends State<TLV> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               new Table(
+                defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+                columnWidths:  const <int, TableColumnWidth> {
+                  0: FixedColumnWidth(100.0),
+                  //1: FixedColumnWidth(110.0),
+                  //2: FixedColumnWidth(125.0),
+                },
+                border: new TableBorder(
+                  right: BorderSide(width: 2.0),
+                  left: BorderSide(width: 2.0),
+                  bottom: BorderSide(width: 2.0),
+                  top: BorderSide(width: 2.0),
+                  horizontalInside: BorderSide(width: 1.0),
+                  verticalInside: BorderSide(width: 1.0),
+                ),
                 children: [
                   new TableRow(
                     decoration: new BoxDecoration(color: Colors.yellowAccent[100],),
@@ -29,19 +43,19 @@ class TLVState extends State<TLV> {
                       Center(
                         child: Container(
                             padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                            child: new Text("Sr. No.", style: new TextStyle(fontSize: 25.0, color: Colors.red),)
+                            child: new Text("Sr. No.", style: new TextStyle(fontSize: 25.0, color: Colors.red,fontWeight: FontWeight.bold),)
                         ),
                       ),
                       Center(
                         child: Container(
                             padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                            child: new Text("Chemical", style: new TextStyle(fontSize: 25.0, color: Colors.red),)
+                            child: new Text("Chemical", style: new TextStyle(fontSize: 25.0, color: Colors.red, fontWeight: FontWeight.bold),)
                         ),
                       ),
                       Center(
                         child: Container(
                             padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                            child: new Text("TLV", style: new TextStyle(fontSize: 25.0, color: Colors.red),)
+                            child: new Text("TLV", style: new TextStyle(fontSize: 25.0, color: Colors.red, fontWeight: FontWeight.bold),)
                         ),
                       ),
                     ],
@@ -303,15 +317,7 @@ class TLVState extends State<TLV> {
                     ],
                   ),
                 ],
-                defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-                border: new TableBorder(
-                  right: BorderSide(width: 2.0),
-                  left: BorderSide(width: 2.0),
-                  bottom: BorderSide(width: 2.0),
-                  top: BorderSide(width: 2.0),
-                  horizontalInside: BorderSide(width: 1.0),
-                  verticalInside: BorderSide(width: 1.0),
-                ),
+
               ),
 
             ],
