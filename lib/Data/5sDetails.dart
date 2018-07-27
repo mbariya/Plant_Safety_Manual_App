@@ -63,20 +63,20 @@ class _FiveSPageState extends State<FiveSPage> {
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("1S", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("1S",),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("SEIRI", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("SEIRI", ),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
                         child:
-                            new Text("Sorting i.e. organizing - Reorganizing", style: new TextStyle(fontSize: 20.0,)),
+                            new Text("Sorting i.e. organizing - Reorganizing",),
                       ),
                     ),
                   ],
@@ -87,43 +87,19 @@ class _FiveSPageState extends State<FiveSPage> {
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("2S", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("2S", ),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("SEITON", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("SEITON", ),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child:
-                        new Text("Set in Order - Systematic Arrangement", style: new TextStyle(fontSize: 20.0,)),
-                      ),
-                    ),
-                  ],
-                ),
-
-                new TableRow(
-                  children: [
-                    new Center(
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("3S", style: new TextStyle(fontSize: 20.0,)),
-                      ),
-                    ),
-                    new Center(
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("SEISO", style: new TextStyle(fontSize: 20.0,)),
-                      ),
-                    ),
-                    new Center(
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("Spick and Span - Neat and Clean", style: new TextStyle(fontSize: 20.0,),),
+                        child: new Text("Set in Order - Systematic Arrangement",),
                       ),
                     ),
                   ],
@@ -134,20 +110,19 @@ class _FiveSPageState extends State<FiveSPage> {
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("4S", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("3S",),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("SEIKETSU", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("SEISO",),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child:
-                        new Text("Standardization", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("Spick and Span - Neat and Clean",),
                       ),
                     ),
                   ],
@@ -158,20 +133,44 @@ class _FiveSPageState extends State<FiveSPage> {
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("5S", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("4S",),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
-                        child: new Text("SHITSUKE", style: new TextStyle(fontSize: 20.0,)),
+                        child: new Text("SEIKETSU",),
                       ),
                     ),
                     new Center(
                       child: Container(
                         padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
                         child:
-                        new Text("Self Discipline", style: new TextStyle(fontSize: 20.0,)),
+                        new Text("Standardization",),
+                      ),
+                    ),
+                  ],
+                ),
+
+                new TableRow(
+                  children: [
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("5S"),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child: new Text("SHITSUKE",),
+                      ),
+                    ),
+                    new Center(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
+                        child:
+                        new Text("Self Discipline"),
                       ),
                     ),
                   ],
