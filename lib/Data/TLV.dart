@@ -84,7 +84,6 @@ class TLVState extends State<TLV> {
                   ),
 
                   new TableRow(
-                    decoration: new BoxDecoration(color: Colors.grey[200],),
                     children: [
                       Center(
                         child: Container(
@@ -130,7 +129,6 @@ class TLVState extends State<TLV> {
                   ),
 
                   new TableRow(
-                    decoration: new BoxDecoration(color: Colors.grey[200],),
                     children: [
                       Center(
                         child: Container(
@@ -177,7 +175,6 @@ class TLVState extends State<TLV> {
                   ),
 
                   new TableRow(
-                    decoration: new BoxDecoration(color: Colors.grey[200],),
                     children: [
                       Center(
                         child: Container(
@@ -224,7 +221,6 @@ class TLVState extends State<TLV> {
                   ),
 
                   new TableRow(
-                    decoration: new BoxDecoration(color: Colors.grey[200],),
                     children: [
                       Center(
                         child: Container(
@@ -271,7 +267,6 @@ class TLVState extends State<TLV> {
                   ),
 
                   new TableRow(
-                    decoration: new BoxDecoration(color: Colors.grey[200],),
                     children: [
                       Center(
                         child: Container(
