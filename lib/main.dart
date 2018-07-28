@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plantsafetymanual/Data/ToxicAndInfectious.dart';
 import 'package:plantsafetymanual/Data/confinedSpace.dart';
 import 'package:plantsafetymanual/Data/hazardousAreaDefination.dart';
 import 'homePageUI.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
           "/TLVPage": (BuildContext context) => new TLV(),
           "/ConfinedSpace": (BuildContext context) => new ConfinedSpaceCriteria(),
           "/HazAreaDef": (BuildContext context) => new HazardousAreaDefination(),
+          "/ToxicAndInfectious": (BuildContext context) => new ToxicAndInfectious(),
 
         },
       ),

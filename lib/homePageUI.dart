@@ -11,7 +11,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "5S Details",
     "Hazardous Area",
     "Flammability Classifications",
-    "Toxic and Infectious Substances",
+    "Toxic & Infectious Substances",
     "Classification of Fires",
     "Hearing Protectors",
     "TLV Value",
@@ -86,8 +86,8 @@ class _MyHomePageState extends State<MyHomePage> {
       case 'Flammability Classifications':
         Navigator.of(context).pushNamed("/FCPage");
         break;
-      case 'Toxic and Infectious Substances':
-        //Navigator.of(context).pushNamed("/TLVPage");
+      case 'Toxic & Infectious Substances':
+        Navigator.of(context).pushNamed("/ToxicAndInfectious");
         break;
       case 'Classification of Fires':
         //Navigator.of(context).pushNamed("/TLVPage");
