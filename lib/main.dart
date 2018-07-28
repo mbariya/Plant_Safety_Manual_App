@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantsafetymanual/Data/confinedSpace.dart';
+import 'package:plantsafetymanual/Data/hazardousAreaDefination.dart';
 import 'homePageUI.dart';
 import 'settings.dart';
 import 'package:dynamic_theme/dynamic_theme.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
           "/FCPage": (BuildContext context) => new FlammabilityClassifications(),
           "/TLVPage": (BuildContext context) => new TLV(),
           "/ConfinedSpace": (BuildContext context) => new ConfinedSpaceCriteria(),
+          "/HazAreaDef": (BuildContext context) => new HazardousAreaDefination(),
 
         },
       ),

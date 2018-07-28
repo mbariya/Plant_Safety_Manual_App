@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Navigator.of(context).pushNamed("/5SPage");
         break;
       case 'Hazardous Area':
-        //Navigator.of(context).pushNamed("/TLVPage");
+        Navigator.of(context).pushNamed("/HazAreaDef");
         break;
       case 'Flammability Classifications':
         Navigator.of(context).pushNamed("/FCPage");
