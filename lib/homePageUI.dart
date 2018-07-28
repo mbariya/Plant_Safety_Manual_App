@@ -133,7 +133,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                     leading: new Text("${index+1}."),
                     title: new Text(items[index])
-
                     )
                 : items[index].toLowerCase().contains(filter.toLowerCase())
                     ? new ListTile(
@@ -142,9 +141,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                       leading: new Text("${index+1}."),
                       title: new Text(items[index])
-
                     )
-                    : new ListTile();
+                    : new Container();
           },
         ))
       ],

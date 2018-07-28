@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9556ad9b-3a32-47c8-9254-8853d6fb8c41" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Data/hazardousAreaDefination.dart" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/homePageUI.dart" afterPath="$PROJECT_DIR$/lib/homePageUI.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="471">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -37,30 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homePageUI.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homePageUI.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/homePageUI.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+            <state relative-caret-position="403">
+              <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#765#909#0" expanded="false" />
-                <element signature="e#940#998#0" expanded="false" />
-                <element signature="e#1023#1703#0" expanded="false" />
-                <element signature="e#1724#1918#0" expanded="false" />
-                <element signature="e#4226#4357#0" expanded="false" />
-                <element signature="e#4408#4572#0" expanded="false" />
+                <element signature="e#763#907#0" expanded="false" />
+                <element signature="e#938#996#0" expanded="false" />
+                <element signature="e#1021#1701#0" expanded="false" />
+                <element signature="e#1722#1916#0" expanded="false" />
+                <element signature="e#4230#4361#0" expanded="false" />
+                <element signature="e#4412#4576#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hazardousAreaDefination.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/Data/hazardousAreaDefination.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -93,15 +81,16 @@
         <option value="$PROJECT_DIR$/lib/Data/TLV.dart" />
         <option value="$PROJECT_DIR$/lib/Data/flammabilityClassifications.dart" />
         <option value="$PROJECT_DIR$/lib/Data/confinedSpace.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/homePageUI.dart" />
         <option value="$PROJECT_DIR$/lib/Data/hazardousAreaDefination.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/Data/ToxicAndInfectious.dart" />
+        <option value="$PROJECT_DIR$/lib/homePageUI.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1348" />
+    <option name="width" value="1106" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -356,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532789160628</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hazardous Area added">
+      <created>1532789900157</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532789900157</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Toxic &amp; infectious Substances added">
+      <created>1532791985904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532791985904</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1348" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1106" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -379,7 +382,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17468944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21510516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -441,7 +444,9 @@
     <MESSAGE value="Grey color removed as conflict with Dark theme" />
     <MESSAGE value="Flammability Classification updated" />
     <MESSAGE value="Confined Space Criteria added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Confined Space Criteria added" />
+    <MESSAGE value="Hazardous Area added" />
+    <MESSAGE value="Toxic &amp; infectious Substances added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toxic &amp; infectious Substances added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -480,12 +485,12 @@
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#765#909#0" expanded="false" />
-            <element signature="e#940#998#0" expanded="false" />
-            <element signature="e#1023#1703#0" expanded="false" />
-            <element signature="e#1724#1918#0" expanded="false" />
-            <element signature="e#4226#4357#0" expanded="false" />
-            <element signature="e#4408#4572#0" expanded="false" />
+            <element signature="e#763#907#0" expanded="false" />
+            <element signature="e#938#996#0" expanded="false" />
+            <element signature="e#1021#1701#0" expanded="false" />
+            <element signature="e#1722#1916#0" expanded="false" />
+            <element signature="e#4230#4361#0" expanded="false" />
+            <element signature="e#4412#4576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -506,12 +511,12 @@
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#765#909#0" expanded="false" />
-            <element signature="e#940#998#0" expanded="false" />
-            <element signature="e#1023#1703#0" expanded="false" />
-            <element signature="e#1724#1918#0" expanded="false" />
-            <element signature="e#4226#4357#0" expanded="false" />
-            <element signature="e#4408#4572#0" expanded="false" />
+            <element signature="e#763#907#0" expanded="false" />
+            <element signature="e#938#996#0" expanded="false" />
+            <element signature="e#1021#1701#0" expanded="false" />
+            <element signature="e#1722#1916#0" expanded="false" />
+            <element signature="e#4230#4361#0" expanded="false" />
+            <element signature="e#4412#4576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,14 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Data/5sDetails.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Data/TLV.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -590,42 +587,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="471">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/homePageUI.dart">
+    <entry file="file://$PROJECT_DIR$/lib/Data/5sDetails.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#765#909#0" expanded="false" />
-            <element signature="e#940#998#0" expanded="false" />
-            <element signature="e#1023#1703#0" expanded="false" />
-            <element signature="e#1724#1918#0" expanded="false" />
-            <element signature="e#4226#4357#0" expanded="false" />
-            <element signature="e#4408#4572#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Data/confinedSpace.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Data/flammabilityClassifications.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="136" column="57" lean-forward="false" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="59" />
+        <state relative-caret-position="272">
+          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -633,8 +606,48 @@
     <entry file="file://$PROJECT_DIR$/lib/Data/hazardousAreaDefination.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Data/flammabilityClassifications.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="136" column="57" lean-forward="false" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Data/confinedSpace.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Data/ToxicAndInfectious.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3415">
+          <caret line="210" column="12" lean-forward="true" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/homePageUI.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#763#907#0" expanded="false" />
+            <element signature="e#938#996#0" expanded="false" />
+            <element signature="e#1021#1701#0" expanded="false" />
+            <element signature="e#1722#1916#0" expanded="false" />
+            <element signature="e#4230#4361#0" expanded="false" />
+            <element signature="e#4412#4576#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
