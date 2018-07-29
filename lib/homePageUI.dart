@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Navigator.of(context).pushNamed("/ClassificationOfFires");
         break;
       case 'Hearing Protectors':
-        //Navigator.of(context).pushNamed("/TLVPage");
+        Navigator.of(context).pushNamed("/HearingProtectors");
         break;
       case 'TLV Value':
         Navigator.of(context).pushNamed("/TLVPage");

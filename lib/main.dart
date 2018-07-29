@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantsafetymanual/Data/ClassificationOfFires.dart';
+import 'package:plantsafetymanual/Data/HearingProtectors.dart';
 import 'package:plantsafetymanual/Data/ToxicAndInfectious.dart';
 import 'package:plantsafetymanual/Data/confinedSpace.dart';
 import 'package:plantsafetymanual/Data/hazardousAreaDefination.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
           "/HazAreaDef": (BuildContext context) => new HazardousAreaDefination(),
           "/ToxicAndInfectious": (BuildContext context) => new ToxicAndInfectious(),
           "/ClassificationOfFires": (BuildContext context) => new ClassificationOfFires(),
+          "/HearingProtectors": (BuildContext context) => new HearingProtectors(),
 
         },
       ),
