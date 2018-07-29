@@ -32,29 +32,13 @@ class _ClassificationOfFiresState extends State<ClassificationOfFires> {
                   new Center(
                     child: Container(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text('Class-A:', style: new TextStyle(fontWeight: FontWeight.bold),),
+                      child: new Text('Class-A:', style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
                     ),
                   ),
                   new Center(
                     child: Container(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text('Fires involving solid materials, normally of an organic nature, such as paper, wood, coal and natural fibers'),
-                    ),
-                  ),
-                ]
-            ),
-            TableRow(
-                children: [
-                  new Center(
-                    child: Container(
-                      padding: new EdgeInsets.all(10.0),
-                      child: new Text('Class-B:', style: new TextStyle(fontWeight: FontWeight.bold),),
-                    ),
-                  ),
-                  new Center(
-                    child: Container(
-                      padding: new EdgeInsets.all(10.0),
-                      child: new Text('Flammable liquids or liquefied solids, such as petrol, oil, grease, fats and paint.'),
+                      child: new Text('Fires involving solid materials, normally of an organic nature, such as paper, wood, coal and natural fibers',style: new TextStyle(fontSize: 20.0),),
                     ),
                   ),
                 ]
@@ -64,29 +48,13 @@ class _ClassificationOfFiresState extends State<ClassificationOfFires> {
                   new Center(
                     child: Container(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text('Class-C:', style: new TextStyle(fontWeight: FontWeight.bold),),
+                      child: new Text('Class-B:', style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
                     ),
                   ),
                   new Center(
                     child: Container(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text('Gases or liquefied gases, such as methane, propane, and mains gas.'),
-                    ),
-                  ),
-                ]
-            ),
-            TableRow(
-                children: [
-                  new Center(
-                    child: Container(
-                      padding: new EdgeInsets.all(10.0),
-                      child: new Text('Class-D:', style: new TextStyle(fontWeight: FontWeight.bold),),
-                    ),
-                  ),
-                  new Center(
-                    child: Container(
-                      padding: new EdgeInsets.all(10.0),
-                      child: new Text('Metal such as aluminum, sodium, potassium or magnesium.'),
+                      child: new Text('Flammable liquids or liquefied solids, such as petrol, oil, grease, fats and paint.',style: new TextStyle(fontSize: 20.0),),
                     ),
                   ),
                 ]
@@ -96,13 +64,45 @@ class _ClassificationOfFiresState extends State<ClassificationOfFires> {
                   new Center(
                     child: Container(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text('Class-F:', style: new TextStyle(fontWeight: FontWeight.bold),),
+                      child: new Text('Class-C:', style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
                     ),
                   ),
                   new Center(
                     child: Container(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text('These are fires fuelled by cooking fats, as in the case of deep fat frying.'),
+                      child: new Text('Gases or liquefied gases, such as methane, propane, and mains gas.',style: new TextStyle(fontSize: 20.0),),
+                    ),
+                  ),
+                ]
+            ),
+            TableRow(
+                children: [
+                  new Center(
+                    child: Container(
+                      padding: new EdgeInsets.all(10.0),
+                      child: new Text('Class-D:', style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
+                    ),
+                  ),
+                  new Center(
+                    child: Container(
+                      padding: new EdgeInsets.all(10.0),
+                      child: new Text('Metal such as aluminum, sodium, potassium or magnesium.',style: new TextStyle(fontSize: 20.0),),
+                    ),
+                  ),
+                ]
+            ),
+            TableRow(
+                children: [
+                  new Center(
+                    child: Container(
+                      padding: new EdgeInsets.all(10.0),
+                      child: new Text('Class-F:', style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
+                    ),
+                  ),
+                  new Center(
+                    child: Container(
+                      padding: new EdgeInsets.all(10.0),
+                      child: new Text('These are fires fuelled by cooking fats, as in the case of deep fat frying.',style: new TextStyle(fontSize: 20.0),),
                     ),
                   ),
                 ]
