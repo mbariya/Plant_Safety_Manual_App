@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
         //Navigator.of(context).pushNamed("/TLVPage");
         break;
       case 'WPS Approval & Auth Matrix':
-        //Navigator.of(context).pushNamed("/TLVPage");
+        Navigator.of(context).pushNamed("/WorkPermitApproval");
         break;
       case 'Confined Space Entry Criteria':
         Navigator.of(context).pushNamed("/ConfinedSpace");
